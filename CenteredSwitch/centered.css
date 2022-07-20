@@ -1,0 +1,22 @@
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+	height: 548px;
+}
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+	padding-top: 0;
+}
+
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+	transform: none !important;
+}
+
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+	opacity: 0;
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5 {
+	transform: translateY(100px);
+}
+

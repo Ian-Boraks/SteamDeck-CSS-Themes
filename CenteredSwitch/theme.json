@@ -1,8 +1,25 @@
 {
 	"name": "Centered Switch",
-	"version": "v1.0",
+	"version": "v2.0",
 	"author": "Ian.B",
 	"inject": {
-		"shared.css": ["QuickAccess", "SP", "MainMenu"]
+		"shared.css": ["SP"]
+	},
+	"patches": {
+		"Centered": {
+			"default": "Yes",
+			"No": {},
+			"Yes": { "centered.css": ["SP"] }
+		},
+		"Show Friends": {
+			"default": "No",
+			"No": {},
+			"Yes": { "friends.css": ["SP"] }
+		},
+		"Better Icons": {
+			"default": "Yes",
+			"No": {},
+			"Yes": { "bettericons.css": ["SP"] }
+		}
 	}
 }
