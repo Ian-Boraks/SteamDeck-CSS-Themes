@@ -1,18 +1,18 @@
 {
 	"name": "Centered Switch",
-	"version": "v2.1",
+	"version": "v2.2",
 	"author": "Ian.B",
 	"inject": {
 		"shared.css": ["SP"],
-    "centered.css": ["SP"]
+		"centered.css": ["SP"]
 	},
 	"patches": {
 		"Show Friends": {
-			"default": "No",
+			"default": "Yes",
 			"No": {},
 			"Yes": { "friends.css": ["SP"] }
 		},
-		"Better Icons": {
+		"Better Header": {
 			"default": "Yes",
 			"No": {},
 			"Yes": { "bettericons.css": ["SP"] }
