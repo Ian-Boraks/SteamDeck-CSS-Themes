@@ -1,0 +1,103 @@
+:root {
+	--gamepadui-header-background-opacity: 1;
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+	height: 548px;
+}
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+	padding-top: 0;
+}
+
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+	transform: none !important;
+}
+
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+	opacity: 0;
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+	opacity: 0;
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5 {
+	transform: translateY(100px);
+}
+
+#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocus),
+#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocuswithin) {
+	--gamepadui-header-background-opacity: 0 !important;
+	/* transform: translateY(15px); */
+	transition-property: --gamepadui-header-background-opacity, transform;
+	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+	transition-duration: 0.25s, 0.35s;
+}
+
+#header.header_OverrideHeaderBackground_MS2nB.gpfocus,
+#header.header_OverrideHeaderBackground_MS2nB.gpfocuswithin {
+	--gamepadui-header-background-opacity: 1 !important;
+	/* transform: none; */
+	transition-property: --gamepadui-header-background-opacity, transform;
+	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+	transition-duration: 0.25s, 0.35s;
+}
+
+.backgroundglass_Visible_fSM7w
+	+ #Header\.Main\.Footer
+	#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocus) {
+	--gamepadui-header-background-opacity: 1 !important;
+	/* transform: none; */
+	transition-property: --gamepadui-header-background-opacity, transform;
+	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+	transition-duration: 0.25s, 0.35s;
+}
+
+#header_profile {
+	padding: 0px 4px;
+	margin-right: 10px;
+	width: auto;
+	transform: none;
+}
+
+#header_profile .avatarFrame {
+	height: 32px;
+}
+
+.header_CurrentUserAvatar_2HXdb {
+	margin-right: 0px !important;
+}
+
+.header_HeaderItem_2HnVd.gpfocus,
+.header_HeaderItem_2HnVd.gpfocuswithin,
+#header_profile.gpfocus {
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	caret-color: #fff;
+	transform: scale(0.9);
+	transition-property: transform, background;
+	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+	transition-duration: 0.25s, 0.35s;
+}
+
+.header_HeaderItem_2HnVd:not(.gpfocus),
+.header_HeaderItem_2HnVd:not(.gpfocuswithin),
+#header_profile:not(.gpfocus) {
+	background: transparent;
+	transform: none;
+	transition-property: transform, background;
+	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+	transition-duration: 0.25s, 0.35s;
+}
+
+.searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_WhiteBackground_1l8js,
+.searchbar_SearchContainer_161Tj.gpfocuswithin
+	.searchbar_WhiteBackground_1l8js {
+	color: #fff;
+}

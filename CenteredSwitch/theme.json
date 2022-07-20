@@ -1,0 +1,8 @@
+{
+	"name": "Centered Switch",
+	"version": "v1.0",
+	"author": "Ian.B",
+	"inject": {
+		"shared.css": ["QuickAccess", "SP", "MainMenu"]
+	}
+}
