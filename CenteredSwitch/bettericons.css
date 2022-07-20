@@ -67,8 +67,13 @@
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
+.searchbar_SearchBox_2a1-s {
+	caret-color: #fff;
+}
+
 .searchbar_SearchContainer_161Tj .searchbar_WhiteBackground_1l8js,
 .searchbar_SearchContainer_161Tj.gpfocuswithin
 	.searchbar_WhiteBackground_1l8js {
 	color: #fff;
+	caret-color: #fff;
 }
