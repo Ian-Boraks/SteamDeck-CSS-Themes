@@ -1,10 +1,11 @@
 {
 	"name": "Centered Switch",
-	"version": "v3.1",
+	"version": "v3.2",
 	"author": "Ian.B",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
-		"centered.css": ["SP"]
+		"centered.css": ["SP"],
+    "centeredQA.css": ["QuickAccess"]
 	},
 	"patches": {
 		"Show Friends": {

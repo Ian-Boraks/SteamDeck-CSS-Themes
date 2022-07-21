@@ -1,0 +1,8 @@
+#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl) {
+	border-radius: 50px 0px 0px 0px;
+}
+
+#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl)
+	.quickaccessmenu_TabContentColumn_2z5NL {
+	border-radius: 50px 0px 0px 0px;
+}

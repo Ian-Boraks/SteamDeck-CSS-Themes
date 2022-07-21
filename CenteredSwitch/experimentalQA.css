@@ -7,5 +7,10 @@
 }
 
 #header_profile {
-  display: none;
+	display: none;
+}
+
+.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
+	.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+    transform: translateY(20px);
 }
