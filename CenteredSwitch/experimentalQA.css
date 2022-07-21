@@ -1,0 +1,7 @@
+#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl) {
+	margin-top: 16px;
+}
+
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl #header {
+	transform: translate(-27px, 0px) !important;
+}

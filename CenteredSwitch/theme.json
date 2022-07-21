@@ -4,23 +4,26 @@
 	"author": "Ian.B",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
-		"centered.css": ["SP", "QuickAccess", "MainMenu"]
+		"centered.css": ["SP"]
 	},
 	"patches": {
 		"Show Friends": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "friends.css": ["SP", "QuickAccess", "MainMenu"] }
+			"Yes": { "friends.css": ["SP"] }
 		},
 		"Better Header": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "header.css": ["SP", "QuickAccess", "MainMenu"] }
+			"Yes": { "header.css": ["SP"] }
 		},
 		"Experimental": {
 			"default": "No",
 			"No": {},
-			"Yes": { "experimental.css": ["SP", "QuickAccess", "MainMenu"] }
+			"Yes": {
+				"experimental.css": ["SP"],
+				"experimentalQA.css": ["QuickAccess"]
+			}
 		}
 	}
 }

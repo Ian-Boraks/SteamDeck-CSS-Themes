@@ -3,7 +3,7 @@
 .backgroundglass_Visible_fSM7w
 	+ #Header\.Main\.Footer
 	#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocus) {
-	--gamepadui-header-background-opacity: 1 !important;
+	--gamepadui-header-background-opacity: 0 !important;
 	transition-property: --gamepadui-header-background-opacity;
 	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
 	transition-duration: 0.25s, 0.35s;
@@ -11,7 +11,7 @@
 
 #header.header_OverrideHeaderBackground_MS2nB.gpfocus,
 #header.header_OverrideHeaderBackground_MS2nB.gpfocuswithin {
-	--gamepadui-header-background-opacity: 0 !important;
+	--gamepadui-header-background-opacity: 1 !important;
 	transition-property: --gamepadui-header-background-opacity;
 	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
 	transition-duration: 0.25s, 0.35s;
