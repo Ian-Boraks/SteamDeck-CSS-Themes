@@ -3,5 +3,9 @@
 }
 
 #QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl #header {
-	transform: translate(-27px, 0px) !important;
+	transform: translate(-60px, 0px) !important;
+}
+
+#header_profile {
+  display: none;
 }
