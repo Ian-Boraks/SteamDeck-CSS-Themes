@@ -34,12 +34,13 @@
 	transform: translateY(20px);
 }
 
-.gamepadhome_TabbedContent_cE1Sa::before {
-    content: "";
-    width: 854px;
-    background-image: linear-gradient(#010306, #181d23d1);
-    padding-top: 760px;
-    position: absolute;
-    display: inherit;
-    transform: translateY(-40px);
+.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
+	~ .gamepadhome_TabbedContent_cE1Sa::before {
+	content: "";
+	width: 854px;
+	background-image: linear-gradient(#010306, #181d23d1);
+	padding-top: 760px;
+	position: absolute;
+	display: inherit;
+	transform: translateY(-50px);
 }
