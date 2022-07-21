@@ -29,6 +29,17 @@
 }
 
 .gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
-	.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+	+ div
+	> .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
 	transform: translateY(20px);
+}
+
+.gamepadhome_TabbedContent_cE1Sa::before {
+    content: "";
+    width: 854px;
+    background-image: linear-gradient(#010306, #181d23d1);
+    padding-top: 760px;
+    position: absolute;
+    display: inherit;
+    transform: translateY(-40px);
 }
