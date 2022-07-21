@@ -15,13 +15,13 @@
 		"Better Header": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "header.css": ["SP"] }
+			"Yes": { "header.css": ["SP", "QuickAccess"] }
 		},
 		"Experimental": {
 			"default": "No",
 			"No": {},
 			"Yes": {
-				"experimental.css": ["SP"],
+				"experimental.css": ["SP", "QuickAccess"],
 				"experimentalQA.css": ["QuickAccess"]
 			}
 		}
