@@ -7,7 +7,10 @@
 }
 
 #header.header_OverrideHeaderBackground_MS2nB.gpfocus,
-#header.header_OverrideHeaderBackground_MS2nB.gpfocuswithin {
+#header.header_OverrideHeaderBackground_MS2nB.gpfocuswithin,
+.backgroundglass_Visible_fSM7w
+	+ #Header\.Main\.Footer
+	#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocus) {
 	transform: none;
 	transition-property: transform;
 	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
