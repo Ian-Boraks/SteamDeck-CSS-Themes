@@ -1,6 +1,6 @@
 {
 	"name": "Centered Switch",
-	"version": "v2.2",
+	"version": "v2.3",
 	"author": "Ian.B",
 	"inject": {
 		"shared.css": ["SP"],

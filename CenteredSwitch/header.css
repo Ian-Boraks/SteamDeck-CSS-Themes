@@ -28,9 +28,17 @@
 
 #header_profile {
 	padding: 0px 4px;
-	margin-right: 10px;
+	margin: 0px 10px;
 	width: auto;
 	transform: none;
+}
+
+#header {
+	background-color: black;
+}
+
+.searchbar_SearchBox_2a1-s {
+	caret-color: #fff;
 }
 
 #header_profile .avatarFrame {
@@ -65,10 +73,6 @@
 
 .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
 	background-color: rgba(255, 255, 255, 0.1);
-}
-
-.searchbar_SearchBox_2a1-s {
-	caret-color: #fff;
 }
 
 .searchbar_SearchContainer_161Tj .searchbar_WhiteBackground_1l8js,
