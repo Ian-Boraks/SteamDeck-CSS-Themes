@@ -3,24 +3,24 @@
 	"version": "v2.4",
 	"author": "Ian.B",
 	"inject": {
-		"shared.css": ["SP"],
-		"centered.css": ["SP"]
+		"shared.css": ["SP", "QuickAccess", "MainMenu"],
+		"centered.css": ["SP", "QuickAccess", "MainMenu"]
 	},
 	"patches": {
 		"Show Friends": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "friends.css": ["SP"] }
+			"Yes": { "friends.css": ["SP", "QuickAccess", "MainMenu"] }
 		},
 		"Better Header": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "header.css": ["SP"] }
+			"Yes": { "header.css": ["SP", "QuickAccess", "MainMenu"] }
 		},
 		"Experimental": {
 			"default": "No",
 			"No": {},
-			"Yes": { "experimental.css": ["SP"] }
+			"Yes": { "experimental.css": ["SP", "QuickAccess", "MainMenu"] }
 		}
 	}
 }
