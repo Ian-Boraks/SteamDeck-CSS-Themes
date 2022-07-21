@@ -1,6 +1,6 @@
 {
 	"name": "Centered Switch",
-	"version": "v2.3",
+	"version": "v2.4",
 	"author": "Ian.B",
 	"inject": {
 		"shared.css": ["SP"],
@@ -17,5 +17,10 @@
 			"No": {},
 			"Yes": { "header.css": ["SP"] }
 		}
+    "Experimental": {
+        "default": "No",
+        "No": {},
+        "Yes": { "experimental.css": ["SP"] }
+    }
 	}
 }
