@@ -27,6 +27,8 @@
 	transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
 	transition-duration: 0.25s, 0.35s;
 }
-/* #header {
-	background-color: transparent !important;
-} */
+
+.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
+	.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+	transform: translateY(20px);
+}
