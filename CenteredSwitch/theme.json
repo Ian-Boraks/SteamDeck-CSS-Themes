@@ -15,7 +15,7 @@
 		"Better Header": {
 			"default": "Yes",
 			"No": {},
-			"Yes": { "bettericons.css": ["SP"] }
+			"Yes": { "header.css": ["SP"] }
 		}
 	}
 }
