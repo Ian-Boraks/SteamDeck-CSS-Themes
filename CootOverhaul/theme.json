@@ -5,8 +5,8 @@
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
 		"centered.css": ["SP"],
-		"centeredQA.css": ["QuickAccess"],
-    "gamemenu.css": ["SP"]
+		"centeredQA.css": ["SP", "QuickAccess"],
+		"gamemenu.css": ["SP"]
 	},
 	"patches": {
 		"Show Friends": {
