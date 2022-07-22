@@ -1,7 +1,7 @@
 {
 	"name": "Centered Switch",
-	"version": "v3.3",
-	"author": "Ian.B",
+	"version": "v3.4",
+	"author": "Coot Moon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
 		"centered.css": ["SP"],

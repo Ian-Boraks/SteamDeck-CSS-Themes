@@ -44,7 +44,7 @@
 	~ .gamepadhome_TabbedContent_cE1Sa::before {
 	content: "";
 	width: 854px;
-	background-image: linear-gradient(#1c3253, #596d86d1);
+	background-image: repeating-linear-gradient(var(--gpStoreDarkerGrey), var(--gpStoreDarkGrey));
 	padding-top: 760px;
 	position: absolute;
 	display: inherit;
