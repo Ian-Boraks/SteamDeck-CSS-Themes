@@ -1,6 +1,6 @@
 {
 	"name": "Coot Overhaul",
-	"version": "v4.9",
+	"version": "v5.0",
 	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
