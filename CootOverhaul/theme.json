@@ -1,11 +1,12 @@
 {
 	"name": "Coot Overhaul",
-	"version": "v4.5",
+	"version": "v4.9",
 	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
 		"centered.css": ["SP"],
-		"centeredQA.css": ["QuickAccess"]
+		"centeredQA.css": ["QuickAccess"],
+    "gamemenu.css": ["SP"]
 	},
 	"patches": {
 		"Show Friends": {
