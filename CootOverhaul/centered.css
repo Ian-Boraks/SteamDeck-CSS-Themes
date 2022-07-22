@@ -20,19 +20,6 @@
 	transform: translateY(114px);
 }
 
-/* Quick Access */
-#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl) {
-	margin-top: 30px;
-}
-
-#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl #header {
-	transform: translate(-60px, 0px) !important;
-}
-
-#header_profile {
-	display: none;
-}
-
 /* Friends */
 #Main.gpfocuswithin
 	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)

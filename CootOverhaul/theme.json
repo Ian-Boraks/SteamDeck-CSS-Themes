@@ -1,10 +1,11 @@
 {
 	"name": "Coot Overhaul",
-	"version": "v4",
+	"version": "v4.5",
 	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
-		"centered.css": ["SP"]
+		"centered.css": ["SP"],
+		"centeredQA.css": ["QuickAccess"]
 	},
 	"patches": {
 		"Show Friends": {
@@ -16,11 +17,6 @@
 			"default": "Yes",
 			"No": {},
 			"Yes": { "header.css": ["SP", "QuickAccess"] }
-		},
-		"Rounded": {
-			"default": "Yes",
-			"No": {},
-			"Yes": { "rounded.css": ["SP", "QuickAccess"] }
 		},
 		"Dark Mode": {
 			"default": "Yes",
