@@ -19,6 +19,10 @@
 	transition-duration: 0.25s, 0.35s;
 }
 
+.header_Header_1E_SL::before {
+	background-color: transparent;
+}
+
 .backgroundglass_Visible_fSM7w
 	+ #Header\.Main\.Footer
 	#header.header_OverrideHeaderBackground_MS2nB:not(.gpfocus) {
@@ -28,17 +32,19 @@
 	transition-duration: 0.25s, 0.35s;
 }
 
-.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
+#main.gpfocuswithin
+	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
 	+ div
 	> .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
 	transform: translateY(20px);
 }
 
-.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
+#main.gpfocuswithin
+	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
 	~ .gamepadhome_TabbedContent_cE1Sa::before {
 	content: "";
 	width: 854px;
-	background-image: linear-gradient(#010306, #181d23d1);
+	background-image: linear-gradient(#1c3253, #596d86d1);
 	padding-top: 760px;
 	position: absolute;
 	display: inherit;
