@@ -1,6 +1,6 @@
 {
-	"name": "Centered Switch",
-	"version": "v3.4",
+	"name": "Coot Overhaul",
+	"version": "v4",
 	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
