@@ -32,14 +32,14 @@
 	transition-duration: 0.25s, 0.35s;
 }
 
-#main.gpfocuswithin
+#Main.gpfocuswithin
 	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
 	+ div
 	> .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
 	transform: translateY(20px);
 }
 
-#main.gpfocuswithin
+#Main.gpfocuswithin
 	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
 	~ .gamepadhome_TabbedContent_cE1Sa::before {
 	content: "";
