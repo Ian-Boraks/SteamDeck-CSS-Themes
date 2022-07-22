@@ -1,15 +1,15 @@
 {
 	"name": "Centered Switch",
 	"version": "v3.4",
-	"author": "Coot Moon",
+	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
 		"centered.css": ["SP"],
-    "centeredQA.css": ["QuickAccess"]
+		"centeredQA.css": ["QuickAccess"]
 	},
 	"patches": {
 		"Show Friends": {
-			"default": "Yes",
+			"default": "No",
 			"No": {},
 			"Yes": { "friends.css": ["SP"] }
 		},
@@ -18,13 +18,10 @@
 			"No": {},
 			"Yes": { "header.css": ["SP", "QuickAccess"] }
 		},
-		"Experimental": {
-			"default": "No",
+		"Rounded": {
+			"default": "Yes",
 			"No": {},
-			"Yes": {
-				"experimental.css": ["SP", "QuickAccess"],
-				"experimentalQA.css": ["QuickAccess"]
-			}
+			"Yes": { "rounded.css": ["SP", "QuickAccess"] }
 		}
 	}
 }

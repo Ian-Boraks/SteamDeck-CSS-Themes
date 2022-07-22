@@ -1,0 +1,40 @@
+.libraryassetimage_Container_1R9r2,
+.libraryassetimage_GreyBackground_2E7G8,
+.libraryassetimage_PortraitImage_3Ehhd,
+.appportrait_PortraitImage_2IYf7,
+.appportrait_Capsule_13w3S,
+.appportrait_CapsuleVisible_3QIfJ,
+.appportrait_LibraryItemBox_WYgDg,
+div:not(.homestorecarousel_StoreCarouselCtn_3zVCV) .libraryassetimage_Image_24_Au,
+div:not(.homestorecarousel_StoreCarouselCtn_3zVCV) .libraryassetimage_Visible_yDr03,
+.recentlycompleted_RecentlyCompletedItem_3OC7i,
+.gamepadhomefriends_FavoriteFriend_3SLpz,
+.gamepadhomefriends_InGameGame_KLo2n,
+.BasicUI .appportrait_LibraryItemBox_WYgDg::after {
+	border-radius: 10px;
+}
+
+.gamepadhomewhatsnew_EventImageWrapper_XLJ9p,
+.appactivityday_EventHeadline_QCKBq,
+.gamecapsule_GameCapsule_fXdhj,
+.homestorecarousel_StoreCarouselCtn_3zVCV .libraryassetimage_Image_24_Au,
+.homestorecarousel_StoreCarouselCtn_3zVCV .libraryassetimage_Visible_yDr03, {
+	border-radius: 10px 10px 0px 0px;
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7,
+.recentlycompleted_BottomSection_3LyF6,
+.appactivityday_EventBody_NEMXh,
+.gamecapsule_BottomBar_3-GyQ,
+.gamecapsule_DeckCompat_Tl-6l {
+	border-radius: 0px 0px 10px 10px;
+}
+
+#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl) {
+	border-radius: 20px 0px 0px 0px;
+}
+
+#QuickAccess-Menu:not(.quickaccessmenu_HeaderAndFooterVisible_2m0zl)
+	.quickaccessmenu_TabContentColumn_2z5NL {
+	border-radius: 10px 0px 0px 0px;
+}
