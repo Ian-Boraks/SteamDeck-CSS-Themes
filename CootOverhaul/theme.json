@@ -4,8 +4,7 @@
 	"author": "CootMoon",
 	"inject": {
 		"shared.css": ["SP", "QuickAccess", "MainMenu"],
-		"centered.css": ["SP"],
-		"centeredQA.css": ["QuickAccess"]
+		"centered.css": ["SP"]
 	},
 	"patches": {
 		"Show Friends": {
@@ -22,6 +21,11 @@
 			"default": "Yes",
 			"No": {},
 			"Yes": { "rounded.css": ["SP", "QuickAccess"] }
+		},
+		"Dark Mode": {
+			"default": "Yes",
+			"No": {},
+			"Yes": { "dark.css": ["SP", "QuickAccess", "MainMenu"] }
 		}
 	}
 }

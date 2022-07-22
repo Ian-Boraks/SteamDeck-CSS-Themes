@@ -1,12 +1,17 @@
-.libraryassetimage_Container_1R9r2,
+@import url("https://raw.githubusercontent.com/EMERALD0874/Steam-Deck-Themes/round/Round/shared.css");
+@import url("https://raw.githubusercontent.com/EMERALD0874/Steam-Deck-Themes/round/Round/round-outline.css");
+
+/* .libraryassetimage_Container_1R9r2,
 .libraryassetimage_GreyBackground_2E7G8,
-.libraryassetimage_PortraitImage_3Ehhd,
+.libraryassetimage_PortraitImage_3Ehhd, */
 .appportrait_PortraitImage_2IYf7,
 .appportrait_Capsule_13w3S,
 .appportrait_CapsuleVisible_3QIfJ,
 .appportrait_LibraryItemBox_WYgDg,
-div:not(.homestorecarousel_StoreCarouselCtn_3zVCV) .libraryassetimage_Image_24_Au,
-div:not(.homestorecarousel_StoreCarouselCtn_3zVCV) .libraryassetimage_Visible_yDr03,
+div:not(.homestorecarousel_StoreCarouselCtn_3zVCV)
+	.libraryassetimage_Image_24_Au,
+div:not(.homestorecarousel_StoreCarouselCtn_3zVCV)
+	.libraryassetimage_Visible_yDr03,
 .recentlycompleted_RecentlyCompletedItem_3OC7i,
 .gamepadhomefriends_FavoriteFriend_3SLpz,
 .gamepadhomefriends_InGameGame_KLo2n,
