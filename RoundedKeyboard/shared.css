@@ -1,14 +1,14 @@
-.virtualkeyboard_KeyboardKey_2KhPX {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
 	border-radius: 10px;
 	box-shadow: 0px 0px 2.5px #1d1d1dcf;
 	transform: scale(0.98);
 }
 
-.virtualkeyboard_Touched_3UFQq {
+.DefaultTheme .virtualkeyboard_Touched_3UFQq {
 	z-index: 999;
 	/* This fixes a problem where holding down the number row the extra options would go behind the first row of letters */
 }
 
-.virtualkeyboard_KeyboardExtendedRow_21EW_ * {
+.DefaultTheme .virtualkeyboard_KeyboardExtendedRow_21EW_ * {
 	border-radius: 10px;
 }
