@@ -7,9 +7,9 @@
 .virtualkeyboard_Touched_3UFQq {
 	z-index: 999;
 	/*  
-    This fixes a problem where holding down the number 
-    row the extra options would go behind the first row of letters
-  */
+    		This fixes a problem where holding down the number 
+    		row the extra options would go behind the first row of letters
+  	*/
 }
 
 .virtualkeyboard_KeyboardExtendedRow_21EW_ * {
