@@ -1,0 +1,9 @@
+{
+	"name": "Rounded Keyboard",
+	"version": "v1.0",
+	"target": "Keyboard",
+	"author": "CootMoon",
+	"inject": {
+		"shared.css": ["SP"]
+	}
+}
