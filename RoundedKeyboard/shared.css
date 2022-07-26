@@ -9,6 +9,6 @@
 	/* This fixes a problem where holding down the number row the extra options would go behind the first row of letters */
 }
 
-.DefaultTheme .virtualkeyboard_KeyboardExtendedRow_21EW_ * {
+.DefaultTheme .virtualkeyboard_KeyboardExtendedRow_21EW_ .virtualkeyboard_KeyboardExtendedKey_394j7 {
 	border-radius: 10px;
 }
