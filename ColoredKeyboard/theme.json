@@ -1,0 +1,50 @@
+{
+	"name": "Colored Keyboard",
+	"version": "v1.0",
+	"target": "Keyboard",
+	"author": "CootMoon",
+	"inject": {
+		"shared.css": ["SP"]
+	},
+	"patches": {
+		"Primary": {
+			"default": "Default",
+			"Default": {},
+			"Orange": { "./colors.primary/orange.css": ["SP"] },
+			"Blue": { "./colors.primary/blue.css": ["SP"] },
+			"Green": { "./colors.primary/green.css": ["SP"] },
+			"Red": { "./colors.primary/red.css": ["SP"] },
+			"Yellow": { "./colors.primary/yellow.css": ["SP"] },
+			"Purple": { "./colors.primary/purple.css": ["SP"] },
+			"Pink": { "./colors.primary/pink.css": ["SP"] },
+			"White": { "./colors.primary/white.css": ["SP"] },
+			"Black": { "./colors.primary/black.css": ["SP"] }
+		},
+		"Secondary": {
+			"default": "Default",
+			"Default": {},
+			"Orange": { "./colors.secondary/orange.css": ["SP"] },
+			"Blue": { "./colors.secondary/blue.css": ["SP"] },
+			"Green": { "./colors.secondary/green.css": ["SP"] },
+			"Red": { "./colors.secondary/red.css": ["SP"] },
+			"Yellow": { "./colors.secondary/yellow.css": ["SP"] },
+			"Purple": { "./colors.secondary/purple.css": ["SP"] },
+			"Pink": { "./colors.secondary/pink.css": ["SP"] },
+			"White": { "./colors.secondary/white.css": ["SP"] },
+			"Black": { "./colors.secondary/black.css": ["SP"] }
+		},
+		"Focused": {
+			"default": "Default",
+			"Default": {},
+			"Orange": { "./colors.focused/orange.css": ["SP"] },
+			"Blue": { "./colors.focused/blue.css": ["SP"] },
+			"Green": { "./colors.focused/green.css": ["SP"] },
+			"Red": { "./colors.focused/red.css": ["SP"] },
+			"Yellow": { "./colors.focused/yellow.css": ["SP"] },
+			"Purple": { "./colors.focused/purple.css": ["SP"] },
+			"Pink": { "./colors.focused/pink.css": ["SP"] },
+			"White": { "./colors.focused/white.css": ["SP"] },
+			"Black": { "./colors.focused/black.css": ["SP"] }
+		}
+	}
+}

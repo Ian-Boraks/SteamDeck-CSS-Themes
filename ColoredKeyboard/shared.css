@@ -1,0 +1,39 @@
+:root {
+	--primary-keyboard-background: #0e141b;
+	--secondary-keyboard-background: #000000;
+	--focused-keyboard-background: #ffffff; 
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+	--key-background-color: white !important;
+
+	--key-focused-background-color: var(--focused-keyboard-background) !important;
+
+	--key-spacebar-background-color: var(
+		--secondary-keyboard-background
+	) !important;
+	--key-caps-background-color: var(--secondary-keyboard-background) !important;
+	--key-shift-background-color: var(--secondary-keyboard-background) !important;
+	--key-tab-background-color: var(--secondary-keyboard-background) !important;
+	--key-enter-background-color: var(--secondary-keyboard-background) !important;
+	--key-backspace-background-color: var(
+		--secondary-keyboard-background
+	) !important;
+	--key-meta-background-color: var(--secondary-keyboard-background) !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+	/* background-color: rgb(124, 81, 0); */
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus {
+	/* background-color: orange; */
+}
+
+.DefaultTheme .virtualkeyboard_Touched_3UFQq {
+	z-index: 999;
+	/* This fixes a problem where holding down the number row the extra options would go behind the first row of letters */
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardExtendedRow_21EW_ * {
+}
