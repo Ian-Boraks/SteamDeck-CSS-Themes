@@ -45,6 +45,32 @@
 			"Pink": { "colors.focused/pink.css": ["SP"] },
 			"White": { "colors.focused/white.css": ["SP"] },
 			"Black": { "colors.focused/black.css": ["SP"] }
+		},
+		"Background": {
+			"default": "Default",
+			"Default": {},
+			"Orange": { "colors.background/orange.css": ["SP"] },
+			"Blue": { "colors.background/blue.css": ["SP"] },
+			"Green": { "colors.background/green.css": ["SP"] },
+			"Red": { "colors.background/red.css": ["SP"] },
+			"Yellow": { "colors.background/yellow.css": ["SP"] },
+			"Purple": { "colors.background/purple.css": ["SP"] },
+			"Pink": { "colors.background/pink.css": ["SP"] },
+			"White": { "colors.background/white.css": ["SP"] },
+			"Black": { "colors.background/black.css": ["SP"] }
+		},
+		"Selected": {
+			"default": "Default",
+			"Default": {},
+			"Orange": { "colors.selected/orange.css": ["SP"] },
+			"Blue": { "colors.selected/blue.css": ["SP"] },
+			"Green": { "colors.selected/green.css": ["SP"] },
+			"Red": { "colors.selected/red.css": ["SP"] },
+			"Yellow": { "colors.selected/yellow.css": ["SP"] },
+			"Purple": { "colors.selected/purple.css": ["SP"] },
+			"Pink": { "colors.selected/pink.css": ["SP"] },
+			"White": { "colors.selected/white.css": ["SP"] },
+			"Black": { "colors.selected/black.css": ["SP"] }
 		}
 	}
 }

@@ -2,6 +2,8 @@
 	--primary-keyboard-background: #0e141b;
 	--secondary-keyboard-background: #000000;
 	--focused-keyboard-background: #ffffff;
+  --background-keyboard-background: ;
+  --selected-keyboard-background: ;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
