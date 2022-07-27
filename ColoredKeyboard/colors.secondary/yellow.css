@@ -3,3 +3,18 @@
 	--secondary-keyboard-background: rgb(71, 71, 0) !important;
 	/* --focused-keyboard-background: yellow !important;  */
 }
+
+.DefaultTheme .KeyTheme_Backspace,
+.DefaultTheme .virtualkeyboard_KeyboardMetaKey_1WbIj,
+.DefaultTheme .virtualkeyboard_KeyboardEnter_IunX6,
+.DefaultTheme .KeyTheme_Shift,
+.DefaultTheme .KeyTheme_SwitchKeys_Steam svg,
+.DefaultTheme .virtualkeyboard_KeyboardSpacebar_ia41Q,
+.DefaultTheme .KeyTheme_CapsLock,
+.DefaultTheme .KeyTheme_Tab {
+	color: black !important;
+}
+
+.DefaultTheme .virtualkeyboard_ActionButtonGlyph_3VtXf {
+  filter: invert() !important;
+}

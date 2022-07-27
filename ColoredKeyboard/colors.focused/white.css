@@ -5,5 +5,10 @@
 }
 
 .DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
-  filter: none !important;
+	filter: none !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
+	color: black !important;
 }

@@ -3,3 +3,12 @@
 	--secondary-keyboard-background: rgb(63, 0, 82) !important; */
 	--focused-keyboard-background: #9370DB !important; /* ALL PRAISE MEDIUM PURPLE */
 }
+
+.DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
+	filter: invert() !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
+	color: whitesmoke !important;
+}

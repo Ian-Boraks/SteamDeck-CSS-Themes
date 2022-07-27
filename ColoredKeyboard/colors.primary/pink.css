@@ -3,3 +3,8 @@
 	/* --secondary-keyboard-background: rgb(83, 65, 68) !important;
 	--focused-keyboard-background: pink !important; */
 }
+
+.DefaultTheme
+	.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab) {
+	color: black !important;
+}

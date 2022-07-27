@@ -3,3 +3,12 @@
 	--secondary-keyboard-background: rgb(83, 65, 68) !important; */
 	--focused-keyboard-background: pink !important;
 }
+
+.DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
+	filter: none !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
+	color: black !important;
+}
