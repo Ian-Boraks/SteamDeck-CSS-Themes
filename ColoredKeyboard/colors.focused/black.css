@@ -3,3 +3,7 @@
 	--secondary-keyboard-background: rgb(20, 20, 20) !important; */
 	--focused-keyboard-background: black !important;
 }
+
+.DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
+	filter: invert() !important;
+}
