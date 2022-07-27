@@ -8,7 +8,7 @@
 	filter: none !important;
 }
 
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
 	color: black !important;
 }
