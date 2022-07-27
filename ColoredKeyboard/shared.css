@@ -2,8 +2,21 @@
 	--primary-keyboard-background: #0e141b;
 	--secondary-keyboard-background: #000000;
 	--focused-keyboard-background: #ffffff;
-  --background-keyboard-background: ;
-  --selected-keyboard-background: ;
+	--background-keyboard-background: #23262e;
+	--selected-keyboard-background: #1a9fff;
+}
+
+.DefaultTheme.virtualkeyboard_Keyboard_45rH7 {
+	--background-color: var(--background-keyboard-background) !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+  background-color: var(--selected-keyboard-background) !important;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
+  --key-extendedkey-background-color: var(--selected-keyboard-background) !important;
+  --key-extendedkey-focused-background-color: var(--focused-keyboard-background) !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
