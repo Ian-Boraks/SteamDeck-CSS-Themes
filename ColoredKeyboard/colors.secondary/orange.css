@@ -1,5 +1,6 @@
 :root {
-	/* --primary-keyboard-background: rgb(141, 92, 0) !important; */
-	--secondary-keyboard-background: rgb(82, 53, 0) !important;
-	/* --focused-keyboard-background: orange !important; */
+    /* --primary-keyboard-background: rgb(141, 92, 0) !important; */
+    --secondary-keyboard-background: rgb(82, 53, 0) !important;
+
+    /* --focused-keyboard-background: orange !important; */
 }

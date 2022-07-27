@@ -1,10 +1,11 @@
 :root {
-	--primary-keyboard-background: rgb(98, 0, 128) !important;
-	/* --secondary-keyboard-background: rgb(63, 0, 82) !important; */
-	/* --focused-keyboard-background: #9370DB !important; ALL PRAISE MEDIUM PURPLE */
+    --primary-keyboard-background: rgb(98, 0, 128) !important;
+
+    /* --secondary-keyboard-background: rgb(63, 0, 82) !important; */
+    /* --focused-keyboard-background: #9370DB !important; ALL PRAISE MEDIUM PURPLE */
 }
 
 .DefaultTheme
-	.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus) {
-	color: whitesmoke;
+.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus) {
+    color: whitesmoke;
 }

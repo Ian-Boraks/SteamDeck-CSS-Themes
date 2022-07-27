@@ -1,15 +1,15 @@
 :root {
-	/* --primary-keyboard-background: rgb(29, 29, 29) !important;
-	--secondary-keyboard-background: rgb(20, 20, 20) !important; */
-	--focused-keyboard-background: black !important;
+    /* --primary-keyboard-background: rgb(29, 29, 29) !important;
+    --secondary-keyboard-background: rgb(20, 20, 20) !important; */
+    --focused-keyboard-background: black !important;
 }
 
 .DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
-	filter: invert() !important;
+    filter: invert() !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus .virtualkeyboard_ShiftedLabel_3FZuk,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
-	color: whitesmoke !important;
+    color: whitesmoke !important;
 }

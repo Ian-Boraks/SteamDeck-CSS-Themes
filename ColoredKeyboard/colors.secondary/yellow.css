@@ -1,7 +1,8 @@
 :root {
-	/* --primary-keyboard-background: rgb(136, 136, 0) !important; */
-	--secondary-keyboard-background: rgb(202, 202, 0) !important;
-	/* --focused-keyboard-background: yellow !important;  */
+    /* --primary-keyboard-background: rgb(136, 136, 0) !important; */
+    --secondary-keyboard-background: rgb(202, 202, 0) !important;
+
+    /* --focused-keyboard-background: yellow !important;  */
 }
 
 .DefaultTheme .KeyTheme_Backspace,
@@ -12,9 +13,9 @@
 .DefaultTheme .virtualkeyboard_KeyboardSpacebar_ia41Q,
 .DefaultTheme .KeyTheme_CapsLock,
 .DefaultTheme .KeyTheme_Tab {
-	color: black;
+    color: black;
 }
 
 .DefaultTheme .virtualkeyboard_ActionButtonGlyph_3VtXf {
-  filter: invert() !important;
+    filter: invert() !important;
 }

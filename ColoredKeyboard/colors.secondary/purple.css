@@ -1,7 +1,8 @@
 :root {
-	/* --primary-keyboard-background: rgb(98, 0, 128) !important; */
-	--secondary-keyboard-background: rgb(63, 0, 82) !important;
-	/* --focused-keyboard-background: #9370DB !important; ALL PRAISE MEDIUM PURPLE */
+    /* --primary-keyboard-background: rgb(98, 0, 128) !important; */
+    --secondary-keyboard-background: rgb(63, 0, 82) !important;
+
+    /* --focused-keyboard-background: #9370DB !important; ALL PRAISE MEDIUM PURPLE */
 }
 
 .DefaultTheme .KeyTheme_Backspace,
@@ -12,9 +13,9 @@
 .DefaultTheme .virtualkeyboard_KeyboardSpacebar_ia41Q,
 .DefaultTheme .KeyTheme_CapsLock,
 .DefaultTheme .KeyTheme_Tab {
-	color: whitesmoke;
+    color: whitesmoke;
 }
 
 .DefaultTheme .virtualkeyboard_ActionButtonGlyph_3VtXf {
-	filter: none !important;
+    filter: none !important;
 }

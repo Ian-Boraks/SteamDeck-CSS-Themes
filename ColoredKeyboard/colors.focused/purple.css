@@ -1,15 +1,15 @@
 :root {
-	/* --primary-keyboard-background: rgb(98, 0, 128) !important;
-	--secondary-keyboard-background: rgb(63, 0, 82) !important; */
-	--focused-keyboard-background: #9370DB !important; /* ALL PRAISE MEDIUM PURPLE */
+    /* --primary-keyboard-background: rgb(98, 0, 128) !important;
+    --secondary-keyboard-background: rgb(63, 0, 82) !important; */
+    --focused-keyboard-background: #9370DB !important; /* ALL PRAISE MEDIUM PURPLE */
 }
 
 .DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
-	filter: none !important;
+    filter: none !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus .virtualkeyboard_ShiftedLabel_3FZuk,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
-	color: black !important;
+    color: black !important;
 }

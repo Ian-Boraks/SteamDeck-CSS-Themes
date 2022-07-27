@@ -1,13 +1,14 @@
 :root {
-	--primary-keyboard-background: rgb(233, 233, 0) !important;
-	/* --secondary-keyboard-background: rgb(71, 71, 0) !important;
-	--focused-keyboard-background: yellow !important;  */
+    --primary-keyboard-background: rgb(233, 233, 0) !important;
+
+    /* --secondary-keyboard-background: rgb(71, 71, 0) !important;
+    --focused-keyboard-background: yellow !important;  */
 }
 
 .DefaultTheme
-	.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus),
+.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus),
 .DefaultTheme
-	.virtualkeyboard_KeyboardKey_2KhPX
-	.virtualkeyboard_ShiftedLabel_3FZuk {
-	color: black;
+.virtualkeyboard_KeyboardKey_2KhPX
+.virtualkeyboard_ShiftedLabel_3FZuk {
+    color: black;
 }

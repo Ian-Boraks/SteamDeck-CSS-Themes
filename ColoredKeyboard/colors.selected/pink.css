@@ -1,8 +1,8 @@
 :root {
-  --selected-keyboard-background: pink !important;
+    --selected-keyboard-background: pink !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq,
 .DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
-	color: black !important;
+    color: black !important;
 }

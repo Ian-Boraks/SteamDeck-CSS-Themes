@@ -1,10 +1,11 @@
 :root {
-	--primary-keyboard-background: black !important;
-	/* --secondary-keyboard-background: rgb(20, 20, 20) !important;
-	--focused-keyboard-background: black !important; */
+    --primary-keyboard-background: black !important;
+
+    /* --secondary-keyboard-background: rgb(20, 20, 20) !important;
+    --focused-keyboard-background: black !important; */
 }
 
 .DefaultTheme
-	.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus) {
-	color: whitesmoke;
+.virtualkeyboard_KeyboardKey_2KhPX:not(.KeyTheme_Backspace):not(.virtualkeyboard_KeyboardMetaKey_1WbIj):not(.virtualkeyboard_KeyboardEnter_IunX6):not(.KeyTheme_Shift):not(.KeyTheme_SwitchKeys_Steam):not(.virtualkeyboard_KeyboardSpacebar_ia41Q):not(.KeyTheme_CapsLock):not(.KeyTheme_Tab):not(.gpfocus) {
+    color: whitesmoke;
 }
