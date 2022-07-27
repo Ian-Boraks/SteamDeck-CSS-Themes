@@ -9,6 +9,7 @@
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus .virtualkeyboard_ShiftedLabel_3FZuk,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
 	color: whitesmoke !important;
 }
