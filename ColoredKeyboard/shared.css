@@ -1,48 +1,38 @@
 :root {
-	--primary-keyboard-background: #0e141b;
-	--secondary-keyboard-background: #000000;
-	--focused-keyboard-background: #ffffff;
-	--background-keyboard-background: #23262e;
-	--selected-keyboard-background: #1a9fff;
+    --primary-keyboard-background: #0e141b;
+    --secondary-keyboard-background: #000000;
+    --focused-keyboard-background: #ffffff;
+    --background-keyboard-background: #23262e;
+    --selected-keyboard-background: #1a9fff;
 }
 
 .DefaultTheme.virtualkeyboard_Keyboard_45rH7 {
-	--background-color: var(--background-keyboard-background) !important;
+    --background-color: var(--background-keyboard-background) !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
-  background-color: var(--selected-keyboard-background) !important;
+    background-color: var(--selected-keyboard-background) !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
-  --key-extendedkey-background-color: var(--selected-keyboard-background) !important;
-  --key-extendedkey-focused-background-color: var(--focused-keyboard-background) !important;
+    --key-extendedkey-background-color: var(--selected-keyboard-background) !important;
+    --key-extendedkey-focused-background-color: var(--focused-keyboard-background) !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
-	--key-background-color: var(--primary-keyboard-background) !important;
-
-	--key-focused-background-color: var(--focused-keyboard-background) !important;
-
-	--key-spacebar-background-color: var(
-		--secondary-keyboard-background
-	) !important;
-	--key-caps-background-color: var(--secondary-keyboard-background) !important;
-	--key-shift-background-color: var(--secondary-keyboard-background) !important;
-	--key-tab-background-color: var(--secondary-keyboard-background) !important;
-	--key-enter-background-color: var(--secondary-keyboard-background) !important;
-	--key-backspace-background-color: var(
-		--secondary-keyboard-background
-	) !important;
-	--key-meta-background-color: var(--secondary-keyboard-background) !important;
+    --key-background-color: var(--primary-keyboard-background) !important;
+    --key-focused-background-color: var(--focused-keyboard-background) !important;
+    --key-spacebar-background-color: var(--secondary-keyboard-background) !important;
+    --key-caps-background-color: var(--secondary-keyboard-background) !important;
+    --key-shift-background-color: var(--secondary-keyboard-background) !important;
+    --key-tab-background-color: var(--secondary-keyboard-background) !important;
+    --key-enter-background-color: var(--secondary-keyboard-background) !important;
+    --key-backspace-background-color: var(--secondary-keyboard-background) !important;
+    --key-meta-background-color: var(--secondary-keyboard-background) !important;
 }
 
 .DefaultTheme .virtualkeyboard_Touched_3UFQq {
-	z-index: 999;
-	/* This fixes a problem where holding down the number row the extra options would go behind the first row of letters */
-}
+    z-index: 999;
 
-.DefaultTheme
-	.virtualkeyboard_KeyboardExtendedRow_21EW_
-	.virtualkeyboard_KeyboardExtendedKey_394j7 {
+    /* This fixes a problem where holding down the number row the extra options would go behind the first row of letters */
 }
