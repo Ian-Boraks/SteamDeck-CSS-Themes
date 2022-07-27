@@ -5,7 +5,7 @@
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
-	--key-background-color: white !important;
+	--key-background-color: var(--primary-keyboard-background) !important;
 
 	--key-focused-background-color: var(--focused-keyboard-background) !important;
 
