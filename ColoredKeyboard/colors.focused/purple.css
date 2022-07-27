@@ -5,11 +5,11 @@
 }
 
 .DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
-	filter: invert() !important;
+	filter: none !important;
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus .virtualkeyboard_ShiftedLabel_3FZuk,
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
-	color: whitesmoke !important;
+	color: black !important;
 }
