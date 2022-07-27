@@ -12,7 +12,7 @@
 .DefaultTheme .virtualkeyboard_KeyboardSpacebar_ia41Q,
 .DefaultTheme .KeyTheme_CapsLock,
 .DefaultTheme .KeyTheme_Tab {
-	color: black !important;
+	color: black;
 }
 
 .DefaultTheme .virtualkeyboard_ActionButtonGlyph_3VtXf {
