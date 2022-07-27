@@ -1,8 +1,0 @@
-#Main.gpfocuswithin
-	.gamepadhome_RecentSection_39tNv:not(.gpfocuswithin)
-	~ .gamepadhome_TabbedContent_cE1Sa::before {
-	background-image: repeating-linear-gradient(
-		var(--gpStoreDarkestGrey),
-		var(--gpSystemDarkestGrey)
-	) !important;
-}
