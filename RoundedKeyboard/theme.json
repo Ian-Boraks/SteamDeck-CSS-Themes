@@ -8,7 +8,7 @@
 	},
 	"patches": {
 		"Size": {
-			"default": "Default",
+			"default": "10px",
 			"1px": { "size/1px.css": ["SP"] },
 			"2.5px": { "size/2.5px.css": ["SP"] },
 			"5px": { "size/5px.css": ["SP"] },
