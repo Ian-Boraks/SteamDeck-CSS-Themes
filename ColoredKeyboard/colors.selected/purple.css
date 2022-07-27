@@ -1,3 +1,8 @@
 :root {
   --selected-keyboard-background: #9370DB !important; /* ALL PRAISE MEDIUM PURPLE */
 }
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq,
+.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
+	color: white !important;
+}
