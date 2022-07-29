@@ -6,15 +6,28 @@ These themes are accessible through the theme DB inside the CssLoader: https://g
 
 ## Installation
 
-1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader). The pre-release is recommended at the time of this guide being written.
-1. Open the Plugins section in the Quick Access menu.
-1. Open the [Plugin Store](https://beta.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
-1. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
-1. Again, open the Plugins section in the Quick Access menu.
-1. Navigate to the Css Loader tab
-1. Select "Manage Themes"
-1. Search for the theme you want to install
-1. Press install
+1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader). `The pre-release is recommended at the time of this guide being written.`
+2. Open the Plugins section in the Quick Access menu.
+3. Open the [Plugin Store](https://beta.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
+4. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
+
+### Option 1: Manually Adding Themes
+5. Hold the power button and select Switch to Desktop.
+6. Navigate to `/home/deck/homebrew/themes`.
+7. Copy the folder(s) from this repository (ex. ColoredKeyboard) into the themes folder.
+8. Select Return to Gaming Mode on the desktop.
+9. Again, open the Plugins section in the Quick Access menu.
+10. Navigate to the Css Loader tab
+11. Open the CSS Loader plugin and enable your desired theme(s).
+
+### Option 2: Using the Theme Data Base
+5. Again, open the Plugins section in the Quick Access menu.
+10. Open the CSS Loader plugin
+7. Select "Manage Themes"
+8. Search for the theme you want to install
+9.  Press install
+5. Again, open the Plugins section in the Quick Access menu.
+10. Open the CSS Loader plugin and enable your desired theme(s).
 
 ## Preview 
 
