@@ -4,12 +4,12 @@
     --focused-keyboard-background: pink !important;
 }
 
-.DefaultTheme .gpfocus .virtualkeyboard_ActionButtonGlyph_3VtXf {
+.DefaultTheme .virtualkeyboard_Focused_21EoN .virtualkeyboard_ActionButtonGlyph_3VtXf {
     filter: none !important;
 }
 
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus,
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus .virtualkeyboard_ShiftedLabel_3FZuk,
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.gpfocus svg {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN .virtualkeyboard_ShiftedLabel_3FZuk,
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN svg {
     color: black !important;
 }
