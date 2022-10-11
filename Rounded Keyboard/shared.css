@@ -3,8 +3,8 @@
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
-    border-radius: var(--keyboard-rounding-amount);
-    box-shadow: 0px 0px 2.5px #1d1d1dcf;
+    border-radius: var(--keyboard-rounding-amount) !important;
+    box-shadow: 0px 0px 2.5px #1d1d1dcf !important;
     transform: scale(0.98);
 }
 
